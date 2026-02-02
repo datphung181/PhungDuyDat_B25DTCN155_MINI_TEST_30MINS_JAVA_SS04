@@ -1,4 +1,4 @@
-let n = +prompt('Mời bạn nhập số cần để kiểm tra: ');
+let n = 36;
 
 if (n % 2 === 0) {
   console.log(`Số ${n} là số chẵn`);
@@ -19,5 +19,7 @@ if (n > 0) {
     console.log(i);
   }
 } else {
+  alert("Giá trị n không hợp lệ để tạo dãy số !!");
   console.log("Giá trị n không hợp lệ để tạo dãy số !!");
 }
+
